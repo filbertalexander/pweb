@@ -1,0 +1,97 @@
+body{
+  background-color: #ef4f4f;
+}
+
+table {
+  width: 100%;
+  border: 1px;
+  border-collapse:collapse;
+}
+
+td {
+  padding: 5px;
+}
+
+td.field {
+  width: 30%;
+  padding: 10px;
+  text-align: right;
+  font-weight: bold;
+  background-color: #fde8cd;
+  border-bottom: solid 2px #fff3e6;
+}
+
+td.data {
+  padding: 10px;
+  background-color: #fde8cd;
+  border-bottom: solid 1px #fff3e6;
+
+}
+td.data2{
+  background-color: #fde8cd;
+}
+
+th.cell1 {
+  background-color: #fde8cd;
+  border-right: 1px solid #fff3e6;
+  padding: 5px;
+}
+th.cell2 {
+  background-color: #fde8cd;
+  padding: 5px;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+}
+
+.row {
+  width: 100%;
+  display: flex;
+}
+
+.col3 {
+  flex: 25%;
+  float: left;
+  margin: 3px;
+  padding: 3px;
+}
+
+.col4 {
+  flex: 33%;
+  float: left;
+  margin: 3px;
+  padding: 3px;
+}
+
+.col6 {
+  flex: 50%;
+  float: left;
+  margin: 3px;
+  padding: 3px;
+}
+
+.col8 {
+  flex: 66%;
+  float: left;
+  margin: 3px;
+  padding: 3px;
+}
+
+.col9 {
+  flex: 75%;
+  float: left;
+  margin: 3px;
+  padding: 3px;
+}
+
+.text-center {
+  text-align: center;
+  background-color: #fde8cd;
+  border-right: 1px solid #fff3e6;
+}
+
+.text-right {
+  text-align: right;
+}
